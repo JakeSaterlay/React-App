@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React hello from the mac!!
+          Learn React hello from the pc!
         </a>
       </header>
     </div>

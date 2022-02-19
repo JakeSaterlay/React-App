@@ -1,21 +1,33 @@
-import jake from './images/jake.jpg';
+import linkedin from './images/linkedin.png';
+import github from './images/github.png';
 import './App.css';
 
 function Home() {
   return (
-      <div className="App">
-        <div className="App-header">
-          <img src={jake} className="App-logo" alt="logo" />
-          <p>
+
+        <div>
+          <p className="header-title">
             Jake Saterlay Portfolio
           </p>
-          <div className="Links">
-            <a href="https://github.com/JakeSaterlay" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/jake-saterlay/" target="_blank">LinkedIn</a>
-            <a href="/about">ABOUT ME</a>
+          <div className="App-header">
+            <div className="cards"> 
+              <a className="card" href="https://github.com/JakeSaterlay" target="_blank">
+                <div>
+                  <img src={linkedin} className="card-img" />
+                </div>
+              </a>
+              <a className="card" href="https://github.com/JakeSaterlay" target="_blank">
+                <div>
+                  <img src={github} className="card-img" />
+                </div>
+              </a>
+            </div>
+            <div className="Links">
+              <a href="/about">ABOUT ME</a>
+            </div>
           </div>
         </div>
-      </div> 
+
   );
 }
 

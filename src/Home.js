@@ -12,6 +12,7 @@ function Home() {
           <div className="Links">
             <a href="https://github.com/JakeSaterlay" target="_blank">GitHub</a>
             <a href="https://www.linkedin.com/in/jake-saterlay/" target="_blank">LinkedIn</a>
+            <a href="/about">ABOUT ME</a>
           </div>
         </div>
       </div> 

@@ -11,10 +11,8 @@ function App() {
           <Route exact path="/" element={<Home/>}/> 
           <Route exact path="/about" element={<About/>}/> 
         </Routes>
-        <a href="/about">ABOUT</a>
       </div>
     </Router>
-   
   );
 }
 

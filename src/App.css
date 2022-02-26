@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
 .App {
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   background-color:#fcfced;
   min-height:100vh;

@@ -57,7 +57,7 @@ function About() {
         <button onClick={incrementCounter}>add one</button>
       </div>
       <img src={jake} className="card-img" />
-      <p>I am Jake from Norwich</p>
+      <p>I am Jake from Norwich!</p>
       <a href="/">Home</a>
        <div>
             <button onClick={openModal}>Open Modal</button>

@@ -43,22 +43,31 @@ function About() {
           Mastering React
         </a>
       </div>
-      <a href="#" onClick={openModal}>
-        Projects
-      </a>
-      <Modal
-        isOpen={modalIsOpen}
-        onRequestClose={closeModal}
-        style={customStyles}
-        contentLabel="Example Modal"
-      >
-        <button onClick={closeModal}>close</button>
-        <div>My Projects</div>
-        <div>League of Legends Champion Randomiser, built in ReactJS</div>
-        <div>Harry Potter API built in Node and Express</div>
-        <div>Football API built in C#, .NET Core and MongoDB</div>
-        <div>Front end website for my sister's business, built in ReactJS</div>
-      </Modal>
+      <div>
+        <p>Projects:</p>
+        <p>
+          I like to work on personal projects in my spare time, which you can
+          see by clicking{" "}
+          <a href="#" onClick={openModal}>
+            here
+          </a>
+        </p>
+        <Modal
+          isOpen={modalIsOpen}
+          onRequestClose={closeModal}
+          style={customStyles}
+          contentLabel="Example Modal"
+        >
+          <button onClick={closeModal}>close</button>
+          <div>My Projects</div>
+          <div>League of Legends Champion Randomiser, built in ReactJS</div>
+          <div>Harry Potter API built in Node and Express</div>
+          <div>Football API built in C#, .NET Core and MongoDB</div>
+          <div>
+            Front end website for my sister's business, built in ReactJS
+          </div>
+        </Modal>
+      </div>
       <a href="/">Home</a>
     </div>
   );
